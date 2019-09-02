@@ -10,5 +10,5 @@ add_flash_types :success, :info, :warning, :danger
     !current_user.nil?
   end
   
-  helper_method :current_user ,logged_in?
+  helper_method :current_user, :logged_in?
 end
